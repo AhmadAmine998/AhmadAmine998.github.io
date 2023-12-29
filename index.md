@@ -4,19 +4,16 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a first year Ph.D. student in Electrical and Systems Engineering at the University of Pennsylvania, working with <a href="https://www.seas.upenn.edu/~rahulm/"><autocolor> Professor Rahul Mangharam</autocolor></a>. Prior to my PhD, I had obtained my MS in Robotics at the University of Pennsylvania, and my BE in Electrical and Computer Engineering with a Minor in Mathematics at the American University of Beirut, Lebanon. 
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Control Systems:** ...
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Jun. 2023]** Our paper about HRI using Virtual Assistants is accepted to ROMAN 2023. 
+- **[Mar. 2023]** Our paper about Ensemble Gaussian Process MPC is accepted to IFAC 2023.
 
 {% include_relative _includes/publications.md %}
 
