@@ -9,7 +9,7 @@ main:
     bibtex: https://www.sciencedirect.com/sdfe/arp/cite?pii=S2405896323020244&format=text%2Fx-bibtex&withabstract=true
     image: ./assets/img/IFAC2023.svg
 
-  - title: Human-Robot Interaction using VAHR: Virtual Assistant, Human, and Robots in the Loop
+  - title: "Human-Robot Interaction using VAHR: Virtual Assistant, Human, and Robots in the Loop"
     authors: <strong>Ahmad Amine</strong>, Mostafa Aldilati, Hadi Hasan, Noel Maalouf, Imad H. Elhajj
     conference_short: ROMAN
     conference: IEEE International Conference on Robot and Human Interactive Communication <strong>(ROMAN)</strong>, 2023.
