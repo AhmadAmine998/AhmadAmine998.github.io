@@ -8,7 +8,9 @@ I am a first year Ph.D. student in Electrical and Systems Engineering at the Uni
 
 ## Research Interests
 
-- **Control Systems:** ...
+- **Control Systems:** Optimal Control, Adaptive Control, Control of Switched (Hybrid) Systems
+- **System Identification:** Parameter Identification, Bayesian Modelling, Exploration-Exploitation Trade-off
+- **Machine Learning:** Inverse RL, Value Function Learning, Uncertainty Aware Learning for Bayesian Networks
 
 ## News
 
