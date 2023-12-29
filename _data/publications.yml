@@ -7,7 +7,7 @@ main:
     pdf: https://www.sciencedirect.com/science/article/pii/S2405896323020244/pdf?md5=eb7e2a0369ba5aa349dbf48d79a1d915&pid=1-s2.0-S2405896323020244-main.pdf
     code: https://github.com/mlab-upenn/multisurface-racing
     bibtex: https://www.sciencedirect.com/sdfe/arp/cite?pii=S2405896323020244&format=text%2Fx-bibtex&withabstract=true
-    image: ./assets/img/IFAC2023.pdf
+    image: ./assets/img/IFAC2023.svg
 
   - title: Human-Robot Interaction using VAHR: Virtual Assistant, Human, and Robots in the Loop
     authors: <strong>Ahmad Amine</strong>, Mostafa Aldilati, Hadi Hasan, Noel Maalouf, Imad H. Elhajj
