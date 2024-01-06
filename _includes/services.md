@@ -1,6 +1,6 @@
 ## Services
 
-<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+<h4 style="margin:0 10px 0;">Conference Reviewer</h4>
 
 <ul style="margin:0 0 5px;">
   <li><a href="https://conferences.ifac-control.org/sysid2024/"><autocolor>IFAC Symposium on System Identification (SYSID 2023) </autocolor></a></li>
