@@ -10,7 +10,7 @@ main:
   - title: "PoseINN: Realtime Visual-based Pose Regression and Localization with Invertible Neural Networks"
     authors: Zirui Zang, <strong>Ahmad Amine</strong>, Rahul Mangharam
     conference_short: ICRA
-    conference: IEEE International Conference on Robotics and Automation <strong>(ICRA) 2024 Robonerf Workshop: 1st Workshop on Neural Fields in Robotics</strong>, 2024.
+    conference: IEEE International Conference on Robotics and Automation <strong>(ICRA) 2024 Robonerf Workshop - 1st Workshop on Neural Fields in Robotics</strong>, 2024.
     pdf: https://openreview.net/pdf?id=qAApP8nJyP
     bibtex: https://openreview.net/forum?id=qAApP8nJyP
     image: ./assets/img/ICRA2024.png
