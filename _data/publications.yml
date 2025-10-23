@@ -1,4 +1,19 @@
 main:
+  - title: "Zero-Shot Context Identification through Clustering and Foundation Modeling for Friction Estimation"
+    authors: Renukanandan Tumu, <strong>Ahmad Amine</strong>, Lee Milburn, Rajnish Gupta, Urara Kono, Rahul Mangharam
+    conference_short: ICRA
+    conference: IEEE International Conference on Robotics and Automation <strong>(ICRA) 2025 Workshop on Foundation Models and Neuro-Symbolic AI for Robotics</strong>, 2025.
+    pdf: https://openreview.net/pdf?id=050LfN58RW
+    bibtex: https://openreview.net/forum?id=050LfN58RW#
+    image: ./assets/img/ICRA2025.png
+
+  - title: "PoseINN: Realtime Visual-based Pose Regression and Localization with Invertible Neural Networks"
+    authors: Zirui Zang, <strong>Ahmad Amine</strong>, Rahul Mangharam
+    conference_short: ICRA
+    conference: IEEE International Conference on Robotics and Automation <strong>(ICRA) 2024 Robonerf Workshop: 1st Workshop on Neural Fields in Robotics</strong>, 2024.
+    pdf: https://openreview.net/pdf?id=qAApP8nJyP
+    bibtex: https://openreview.net/forum?id=qAApP8nJyP
+    image: ./assets/img/ICRA2024.png
 
   - title: Ensemble Gaussian Processes for Adaptive Autonomous Driving on Multi-friction Surfaces
     authors: Tomáš Nagy, <strong>Ahmad Amine</strong>, Truong X. Nghiem, Ugo Rosolia, Zirui Zang, Rahul Mangharam
