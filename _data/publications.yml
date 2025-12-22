@@ -1,5 +1,13 @@
 main:
   - title: "Zero-Shot Context Identification through Clustering and Foundation Modeling for Friction Estimation"
+    authors: Zirui Zang, <strong>Ahmad Amine</strong>, Nick-Marios T. Kokolakis, Truong X. Nghiem, Ugo Rosolia, Rahul Mangharam
+    conference_short: RA-L
+    conference: IEEE Robotics and Automation Letters <strong>(RA-L)</strong>, 2025.
+    pdf: hhttps://ieeexplore.ieee.org/document/11260933
+    bibtex: https://ieeexplore.ieee.org/document/11260933
+    image: ./assets/img/RAL2025.png
+
+  - title: "Zero-Shot Context Identification through Clustering and Foundation Modeling for Friction Estimation"
     authors: Renukanandan Tumu, <strong>Ahmad Amine</strong>, Lee Milburn, Rajnish Gupta, Urara Kono, Rahul Mangharam
     conference_short: ICRA
     conference: IEEE International Conference on Robotics and Automation <strong>(ICRA) 2025 Workshop on Foundation Models and Neuro-Symbolic AI for Robotics</strong>, 2025.

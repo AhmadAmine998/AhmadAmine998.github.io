@@ -14,6 +14,7 @@ I am a third year Ph.D. student in Electrical and Systems Engineering at the Uni
 
 ## News
 
+- **[Nov. 2025]** Our paper about Safe Information-Theoretic Learning Model Predictive Control for Iterative Tasks (SIT-LMPC) is publsihed in the IEEE Robotics and Automation Journal (IEEE RA-L).
 - **[Apr. 2025]** Our paper about Zero-Shot Context Identification through Clustering and Foundation Modeling for Friction Estimation is accepted to ICRA 2025 Workshop on Foundation Models and Neuro-Symbolic AI for Robotics.
 - **[Apr. 2024]** Our paper about Realtime Visual-based Pose Regression and Localization with Invertible Neural Networks (PoseINN) is accepted to RoboNerF WS 2024.
 - **[Jun. 2023]** Our paper about HRI using Virtual Assistants is accepted to ROMAN 2023. 
