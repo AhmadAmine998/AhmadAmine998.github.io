@@ -1,5 +1,5 @@
 main:
-  - title: "Zero-Shot Context Identification through Clustering and Foundation Modeling for Friction Estimation"
+  - title: "SIT-LMPC: Safe Information-Theoretic Learning Model Predictive Control for Iterative Tasks"
     authors: Zirui Zang, <strong>Ahmad Amine</strong>, Nick-Marios T. Kokolakis, Truong X. Nghiem, Ugo Rosolia, Rahul Mangharam
     conference_short: RA-L
     conference: IEEE Robotics and Automation Letters <strong>(RA-L)</strong>, 2025.
