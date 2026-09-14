@@ -1,19 +1,19 @@
 - institution: University of Pennsylvania
   id: penn
   location: Philadelphia, Pennsylvania
-  introduction: "At Penn, I serve as lead teaching assistant for autonomous racing and have been a teaching assistant for linear systems and introductory robotics."
+  introduction: "At Penn, I am the lead teaching assistant for autonomous racing (ESE6150) and have served as a teaching assistant for linear systems (ESE5000) and introduction to robotics (MEAM5200)."
   courses:
     - code: ESE 6150
       title: F1/10 Autonomous Racing Cars
       role: Lead Teaching Assistant
-      semesters: "Spring 2026 · Spring 2025 · Spring 2024"
-      description: "I give lectures on optimal control, model predictive control, stochastic optimal control, and reinforcement learning. Students implement and evaluate autonomous driving algorithms on 1/10-scale cars, connecting the mathematical formulation of a controller to its computational and experimental requirements."
-      additional: "I developed the course’s reference MPC implementation, reducing computational overhead through solver integration, sparse matrix formulations, and code generation. This made the controller suitable for real-time execution on the cars."
+      semesters: "Fall 2026 · Spring 2026 · Spring 2025 · Spring 2024"
+      description: "I give different tutorials ranging from setting up the cars and debugging ROS nodes to applied optimization and reinforcement learning. I give lectures on optimal control, model predictive control, stochastic optimal control, and reinforcement learning. Students implement and evaluate autonomous driving algorithms on 1/10-scale cars, connecting the mathematical formulation of a controller to its computational and experimental requirements."
+      additional: "I developed the course's reference MPC implementation, reducing computational overhead through solver integration, sparse matrix formulations, and code generation. This made the controller suitable for real-time execution on the cars."
     - code: ESE 5000
       title: Linear Systems
       role: Teaching Assistant
       semesters: Fall 2024
-      description: "I served as a teaching assistant for this graduate course in linear systems theory."
+      description: "I served as a teaching assistant for this graduate course in linear systems theory. Responsibilities include holding office hours and grading."
     - code: MEAM 5200
       title: Introduction to Robotics
       role: Teaching Assistant
@@ -22,18 +22,18 @@
 - institution: American University of Beirut
   id: aub
   location: Beirut, Lebanon
-  introduction: "My teaching experience began at AUB, where I worked as a teaching assistant in programming, electronics, and electronic circuits. These roles included helping students with laboratory work and problem solving, and grading assignments and quizzes."
+  introduction: "My teaching experience began at AUB, where I worked as a teaching assistant in programming, electronics, and electronic circuits. These roles included helping students with laboratory work and recitation sessions, and grading assignments and quizzes."
   courses:
     - code: EECE 311
       title: Electronic Circuits
       role: Teaching Assistant
       semesters: Spring 2019
-      description: "Supported students in electronic circuits through problem-solving sessions and assessment."
+      description: "Supported students in electronic circuits through recitation sessions and assessment."
     - code: EECE 310
       title: Electronics
       role: Teaching Assistant
       semesters: Fall 2018
-      description: "Supported electronics teaching through problem-solving sessions and grading."
+      description: "Supported electronics teaching through recitation sessions and grading."
     - code: EECE 230
       title: Introduction to Computation and Programming
       role: Teaching Assistant

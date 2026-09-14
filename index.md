@@ -10,9 +10,9 @@ description: Ahmad Amine is a PhD student at Penn researching data-driven safe i
   </div>
   <p class="lead-statement">Data-driven safe iterative control</p>
   <p>I am a PhD student in Electrical and Systems Engineering at the University of Pennsylvania, advised by <a href="https://www.seas.upenn.edu/~rahulm/">Rahul Mangharam</a>. My research focuses on learning and control of dynamical systems under uncertainty.</p>
-  <p>I study how successful task executions can improve control performance and how failed executions can identify constraints and invariance-preserving control inputs. My work combines model predictive control, learning, and system identification, with autonomous vehicles as an application domain.</p>
+  <p>I study how successful task executions can improve control performance and how failed executions can identify constraints and invariance-preserving control inputs. My work combines model predictive control, learning, and system identification, with autonomous vehicles and autonomous racing as an application domain.</p>
   <p>At Penn, I also teach control and robotics as a teaching assistant and help organize international Roboracer competitions.</p>
-  <p>Before my PhD, I earned an MSE in Robotics at Penn and a BE in Electrical and Computer Engineering, with a minor in Mathematics, at the American University of Beirut.</p>
+  <p>I have a Masters in Robotics from Penn. Before my PhD, I got a BE in Electrical and Computer Engineering, with a minor in Mathematics, at the American University of Beirut.</p>
   <div class="profile-links" aria-label="Academic profiles"><a href="{{ site.google_scholar }}">Google Scholar <span aria-hidden="true">↗</span></a><a href="{{ site.github_link }}">GitHub <span aria-hidden="true">↗</span></a><a href="{{ site.linkedin }}">LinkedIn <span aria-hidden="true">↗</span></a><a href="{{ site.cv_link | relative_url }}">CV <span class="link-note">PDF ↗</span></a></div>
 </section>
 
@@ -33,7 +33,7 @@ description: Ahmad Amine is a PhD student at Penn researching data-driven safe i
 
 <section id="contact" class="section contact" aria-labelledby="contact-heading">
   <h2 id="contact-heading">Contact</h2>
-  <p>I welcome inquiries about my research and potential collaborations in learning and control.</p>
+  <p>Got any questions about my research? Looking to collaborate on future research? Reach out!</p>
   <div class="contact-actions">
     <button type="button" class="button" id="reveal-email" aria-controls="email-details" aria-expanded="false" hidden>Show email <span aria-hidden="true">↗</span></button>
     <a href="{{ site.linkedin }}">Connect on LinkedIn <span aria-hidden="true">↗</span></a>

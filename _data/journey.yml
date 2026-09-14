@@ -34,7 +34,7 @@
   title: MAD-Games at ACC
   location: New Orleans, Louisiana, USA
   paragraphs:
-    - "I attended the third Workshop on Multi-Agent Dynamic Games at ACC. The workshop brought together researchers working on game theory, control, and learning for autonomous agents that interact with one another."
+    - "I helped with the third Workshop on Multi-Agent Dynamic Games at ACC. The workshop brought together researchers working on game theory, control, and learning for autonomous agents that interact with one another."
   links:
     - label: Workshop
       url: https://acc26-madgames.roboracer.ai/
@@ -115,7 +115,7 @@
   title: Robotics and embedded systems
   location: Lebanon
   paragraphs:
-    - "After my undergraduate degree at AUB, I worked in the Robotics and Automation Lab and as a mechatronics engineer at Band Industries. My work spanned robotic systems and the embedded software and control behind musical hardware."
+    - "After my undergraduate degree at AUB, I worked as a mechatronics engineer at Band Industries on embedded software and control for Roadie 2 and Roadie 3. I also worked part-time in the Robotics and Automation Lab at AUB with Professor Imad Elhajj on human-robot interaction and culminated in our paper which was presented at IEEE RO-MAN 2023."
 - id: band-internship
   date: June–August 2019
   date_iso: '2019-06'
