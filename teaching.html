@@ -1,0 +1,18 @@
+---
+layout: homepage
+title: Teaching
+permalink: /teaching/
+description: Ahmad Amine’s teaching in control, autonomous racing, robotics, electronics, and programming at Penn and the American University of Beirut.
+---
+
+<header class="page-intro"><h1>Teaching</h1><p class="page-lead">Control, robotics, electronics, and programming</p><p>My teaching spans lectures on optimal control and learning, robotics course software, and laboratory and problem-solving instruction. The courses below are grouped by institution, with my role and teaching semesters listed for each.</p></header>
+
+{% for university in site.data.teaching %}
+<section id="{{ university.id }}" class="section institution" aria-labelledby="{{ university.id }}-heading">
+  <p class="eyebrow">{{ university.location }}</p><h2 id="{{ university.id }}-heading">{{ university.institution }}</h2>
+  <p>{{ university.introduction }}</p>
+  {% for course in university.courses %}
+  <article class="course"><p class="item-meta">{{ course.code }} · {{ course.role }}</p><h3>{{ course.title }}</h3><p class="semester">{{ course.semesters }}</p><p>{{ course.description }}</p>{% if course.additional %}<p>{{ course.additional }}</p>{% endif %}</article>
+  {% endfor %}
+</section>
+{% endfor %}

@@ -1,0 +1,20 @@
+---
+layout: homepage
+title: Journey
+permalink: /journey/
+description: Conferences, internships, and academic milestones in Lebanon, the United States, Japan, and Europe.
+---
+
+<header class="page-intro"><h1>Journey</h1><p class="page-lead">Conferences, internships, and academic milestones</p><p>A record of the places where I have studied, worked, and attended research events, from Lebanon to Penn and visits to Japan and Europe.</p></header>
+
+<ol class="journey-timeline">
+  {% for entry in site.data.journey %}
+  <li class="journey-entry" id="{{ entry.id }}">
+    <p class="item-meta"><time datetime="{{ entry.date_iso }}">{{ entry.date }}</time> · {{ entry.kind }}</p>
+    <h2>{{ entry.title }}</h2><p class="journey-location">{{ entry.location }}</p>
+    {% for paragraph in entry.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
+    {% if entry.image %}<figure class="event-photo"><img src="{{ entry.image | relative_url }}" alt="{{ entry.alt | escape }}" width="{{ entry.width }}" height="{{ entry.height }}" loading="lazy"><figcaption>{{ entry.caption }}{% if entry.credit %} <span class="photo-credit">Photo: {{ entry.credit }}{% if entry.credit_url %} · <a href="{{ entry.credit_url }}">Source</a>{% endif %}.</span>{% endif %}</figcaption></figure>{% endif %}
+    {% if entry.links %}<div class="entry-links">{% for link in entry.links %}<a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.label }} <span aria-hidden="true">↗</span></a>{% endfor %}</div>{% endif %}
+  </li>
+  {% endfor %}
+</ol>

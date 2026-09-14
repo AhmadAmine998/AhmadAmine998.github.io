@@ -1,0 +1,134 @@
+- id: iv-2026
+  date: June 22–25, 2026
+  date_iso: '2026-06-22'
+  kind: Conference & racing
+  title: Intelligent Vehicles Symposium
+  location: Detroit, Michigan, USA
+  paragraphs:
+    - "I joined IV 2026 for autonomous vehicle research and the Roboracer competition, where we hosted 14 teams. Our paper on nonplanar MPC with recursive sparse Gaussian process dynamics also appeared at the symposium."
+  image: /assets/img/events/iv-2026.jpg
+  width: 1280
+  height: 514
+  alt: Roboracer teams and organizers beside their cars at IV 2026 in Detroit.
+  caption: The Roboracer community at IV 2026.
+  links:
+    - label: Nonplanar MPC paper
+      url: /research/#nonplanar
+- id: icra-2026
+  date: June 1–5, 2026
+  date_iso: '2026-06-01'
+  kind: Conference & racing
+  title: ICRA 2026
+  location: Vienna, Austria
+  paragraphs:
+    - "I helped organize the Roboracer competition at ICRA, bringing together 200 participants and 30 teams from more than 12 countries."
+  image: /assets/img/events/icra-2026.jpg
+  width: 2048
+  height: 1365
+  alt: A large group of Roboracer participants beside the track at ICRA 2026 in Vienna.
+  caption: Teams and organizers gathered at the ICRA 2026 race track.
+- id: acc-2026
+  date: May 26, 2026
+  date_iso: '2026-05-26'
+  kind: Workshop
+  title: MAD-Games at ACC
+  location: New Orleans, Louisiana, USA
+  paragraphs:
+    - "I attended the third Workshop on Multi-Agent Dynamic Games at ACC. The workshop brought together researchers working on game theory, control, and learning for autonomous agents that interact with one another."
+  links:
+    - label: Workshop
+      url: https://acc26-madgames.roboracer.ai/
+- id: icra-2025
+  date: May 19–23, 2025
+  date_iso: '2025-05-19'
+  kind: Conference & racing
+  title: ICRA 2025
+  location: Atlanta, Georgia, USA
+  paragraphs:
+    - "I helped organize the Roboracer competition in Atlanta, with 26 teams taking part. This ICRA also included our workshop paper on zero-shot context identification for friction estimation."
+  image: /assets/img/events/icra-2025.jpg
+  width: 2048
+  height: 1027
+  alt: Roboracer participants holding their autonomous cars at ICRA 2025 in Atlanta.
+  caption: The ICRA 2025 Roboracer group photo.
+  links:
+    - label: Friction-estimation paper
+      url: /research/#friction-estimation
+- id: cdc-2024
+  date: December 16–19, 2024
+  date_iso: '2024-12-16'
+  kind: Conference & racing
+  title: CDC 2024
+  location: Milan, Italy
+  paragraphs:
+    - "I traveled to Milan to help organize the Roboracer competition at the Conference on Decision and Control. Twelve teams took part in the physical racing competition."
+- id: icra-2024
+  date: May 13–17, 2024
+  date_iso: '2024-05-13'
+  kind: Conference & racing
+  title: ICRA 2024
+  location: Yokohama, Japan
+  paragraphs:
+    - "I returned to Yokohama for ICRA, helping organize the Roboracer competition. Our PoseINN paper on visual pose regression and localization was also part of the RoboNeRF workshop."
+  links:
+    - label: PoseINN paper
+      url: /research/#poseinn
+- id: phd-penn
+  date: August 2023
+  date_iso: '2023-08'
+  kind: Milestone
+  title: Beginning my PhD at Penn
+  location: Philadelphia, Pennsylvania, USA
+  paragraphs:
+    - "After completing my MSE in Robotics, I began my PhD in Electrical and Systems Engineering with Rahul Mangharam. My research focuses on data-driven safe iterative control, with graduation expected in May 2028."
+- id: tier-iv
+  date: July–August 2023
+  date_iso: '2023-07'
+  kind: Internship
+  title: A summer at TIER IV
+  location: Tokyo, Japan
+  paragraphs:
+    - "As a controls intern at TIER IV, I worked on steering system identification, nonlinear MPC, and a reformulation of Autoware’s obstacle-avoidance planner to reduce computation time."
+- id: ifac-2023
+  date: July 9–14, 2023
+  date_iso: '2023-07-09'
+  kind: Conference
+  title: IFAC World Congress
+  location: Yokohama, Japan
+  paragraphs:
+    - "During my summer in Japan, I attended the IFAC World Congress. Our paper studied ensemble Gaussian processes for autonomous driving across surfaces with different friction."
+  links:
+    - label: Ensemble Gaussian processes paper
+      url: /research/#ensemble-gp
+- id: penn-robotics
+  date: Fall 2021
+  date_iso: '2021'
+  kind: Milestone
+  title: From Lebanon to Penn
+  location: Philadelphia, Pennsylvania, USA
+  paragraphs:
+    - "I moved to Philadelphia for the MSE in Robotics at the University of Pennsylvania. I completed the degree in May 2023, before continuing into the PhD program."
+- id: lebanon-engineering
+  date: June 2020–August 2021
+  date_iso: '2020-06'
+  kind: Research & engineering
+  title: Robotics and embedded systems
+  location: Lebanon
+  paragraphs:
+    - "After my undergraduate degree at AUB, I worked in the Robotics and Automation Lab and as a mechatronics engineer at Band Industries. My work spanned robotic systems and the embedded software and control behind musical hardware."
+- id: band-internship
+  date: June–August 2019
+  date_iso: '2019-06'
+  kind: Internship
+  title: Band Industries
+  location: Montiverdi, Lebanon
+  paragraphs:
+    - "I worked on the Roadie robotic guitar tuners, developing interface software for Roadie 2 and a motor-position controller for Roadie 3."
+- id: berkeley
+  date: Summer 2018
+  date_iso: '2018'
+  kind: Study abroad
+  title: A summer at UC Berkeley
+  location: Berkeley, California, USA
+  paragraphs:
+    - "While studying at AUB, I spent a summer studying abroad at the University of California, Berkeley."

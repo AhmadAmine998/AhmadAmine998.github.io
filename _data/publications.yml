@@ -1,41 +1,85 @@
 main:
-  - title: "SIT-LMPC: Safe Information-Theoretic Learning Model Predictive Control for Iterative Tasks"
-    authors: Zirui Zang, <strong>Ahmad Amine</strong>, Nick-Marios T. Kokolakis, Truong X. Nghiem, Ugo Rosolia, Rahul Mangharam
-    conference_short: RA-L
-    conference: IEEE Robotics and Automation Letters <strong>(RA-L)</strong>, 2025.
-    pdf: https://ieeexplore.ieee.org/document/11260933
-    bibtex: https://ieeexplore.ieee.org/document/11260933
-    image: ./assets/img/RAL2025.png
+  - id: fail
+    title: "Failure-Aware Iterative Learning of State-Control Invariant Sets"
+    authors: "<strong>Ahmad Amine</strong>, Nick-Marios T. Kokolakis, Ugo Rosolia, Truong X. Nghiem, Rahul Mangharam"
+    venue_short: CDC
+    venue: IEEE Conference on Decision and Control
+    year: 2026
+    status: Accepted
+    url: https://arxiv.org/abs/2604.06776
+    pdf: https://arxiv.org/pdf/2604.06776
 
-  - title: "Zero-Shot Context Identification through Clustering and Foundation Modeling for Friction Estimation"
-    authors: Renukanandan Tumu, <strong>Ahmad Amine</strong>, Lee Milburn, Rajnish Gupta, Urara Kono, Rahul Mangharam
-    conference_short: ICRA
-    conference: IEEE International Conference on Robotics and Automation <strong>(ICRA) 2025 Workshop on Foundation Models and Neuro-Symbolic AI for Robotics</strong>, 2025.
-    pdf: https://openreview.net/pdf?id=050LfN58RW
-    bibtex: https://openreview.net/forum?id=050LfN58RW#
-    image: ./assets/img/ICRA2025.png
+  - id: ad-mpcc
+    title: "AD-MPCC: Adaptive Differentiable Model Predictive Contouring Control for Autonomous Racing"
+    authors: "Nam T. Nguyen*, Binh Nguyen*, <strong>Ahmad Amine</strong>, Thanh Vo-Duy, Rahul Mangharam, Truong X. Nghiem"
+    venue_short: IROS
+    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems
+    year: 2026
+    status: Accepted
+    url: https://arxiv.org/abs/2607.00141
+    pdf: https://arxiv.org/pdf/2607.00141
 
-  - title: "PoseINN: Realtime Visual-based Pose Regression and Localization with Invertible Neural Networks"
-    authors: Zirui Zang, <strong>Ahmad Amine</strong>, Rahul Mangharam
-    conference_short: ICRA
-    conference: IEEE International Conference on Robotics and Automation <strong>(ICRA) 2024 Robonerf Workshop - 1st Workshop on Neural Fields in Robotics</strong>, 2024.
-    pdf: https://openreview.net/pdf?id=qAApP8nJyP
-    bibtex: https://openreview.net/forum?id=qAApP8nJyP
-    image: ./assets/img/ICRA2024.png
+  - id: stl-svpio
+    title: "STL-SVPIO: Signal Temporal Logic Guided Stein Variational Path Integral Optimization"
+    authors: "Hongrui Zheng, Zirui Zang, <strong>Ahmad Amine</strong>, Cristian Ioan Vasile, Rahul Mangharam"
+    venue_short: IROS
+    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems
+    year: 2026
+    status: Accepted
+    url: https://arxiv.org/abs/2603.13333
+    pdf: https://arxiv.org/pdf/2603.13333
 
-  - title: Ensemble Gaussian Processes for Adaptive Autonomous Driving on Multi-friction Surfaces
-    authors: Tomáš Nagy, <strong>Ahmad Amine</strong>, Truong X. Nghiem, Ugo Rosolia, Zirui Zang, Rahul Mangharam
-    conference_short: IFAC
-    conference: World Congress of the International Federation of Automatic Control <strong>(IFAC)</strong>, 2023.
-    pdf: https://www.sciencedirect.com/science/article/pii/S2405896323020244/pdf?md5=eb7e2a0369ba5aa349dbf48d79a1d915&pid=1-s2.0-S2405896323020244-main.pdf
+  - id: nonplanar
+    title: "Nonplanar Model Predictive Control for Autonomous Vehicles with Recursive Sparse Gaussian Process Dynamics"
+    authors: "<strong>Ahmad Amine</strong>, Kabir Puri, Viet-Anh Le, Rahul Mangharam"
+    venue_short: IV
+    venue: IEEE Intelligent Vehicles Symposium, pp. 2088–2093
+    year: 2026
+    url: https://doi.org/10.1109/IV66570.2026.11623981
+    pdf: https://arxiv.org/pdf/2602.16206
+
+  - id: sit-lmpc
+    title: "SIT-LMPC: Safe Information-Theoretic Learning Model Predictive Control for Iterative Tasks"
+    authors: "Zirui Zang*, <strong>Ahmad Amine*</strong>, Nick-Marios T. Kokolakis, Truong X. Nghiem, Ugo Rosolia, Rahul Mangharam"
+    venue_short: RA-L
+    venue: IEEE Robotics and Automation Letters, 11(1), pp. 986–993
+    year: 2026
+    url: https://doi.org/10.1109/LRA.2025.3634881
+    pdf: https://arxiv.org/pdf/2602.16187
+
+  - id: ensemble-gp
+    title: "Ensemble Gaussian Processes for Adaptive Autonomous Driving on Multi-friction Surfaces"
+    authors: "Tomáš Nagy, <strong>Ahmad Amine</strong>, Truong X. Nghiem, Ugo Rosolia, Zirui Zang, Rahul Mangharam"
+    venue_short: IFAC
+    venue: IFAC World Congress · IFAC-PapersOnLine, 56(2), pp. 494–500
+    year: 2023
+    url: https://doi.org/10.1016/j.ifacol.2023.10.1616
+    pdf: https://arxiv.org/pdf/2303.13694
     code: https://github.com/mlab-upenn/multisurface-racing
-    bibtex: https://www.sciencedirect.com/sdfe/arp/cite?pii=S2405896323020244&format=text%2Fx-bibtex&withabstract=true
-    image: ./assets/img/IFAC2023.svg
 
-  - title: "Human-Robot Interaction using VAHR: Virtual Assistant, Human, and Robots in the Loop"
-    authors: <strong>Ahmad Amine</strong>, Mostafa Aldilati, Hadi Hasan, Noel Maalouf, Imad H. Elhajj
-    conference_short: ROMAN
-    conference: IEEE International Conference on Robot and Human Interactive Communication <strong>(ROMAN)</strong>, 2023.
-    pdf: https://ieeexplore.ieee.org/document/10309620
-    bibtex: https://ieeexplore.ieee.org/document/10309620
-    image: ./assets/img/ROMAN2023.png
+  - id: vahr
+    title: "Human-Robot Interaction using VAHR: Virtual Assistant, Human, and Robots in the Loop"
+    authors: "<strong>Ahmad Amine</strong>, Mostafa Aldilati, Hadi Hasan, Noel Maalouf, Imad H. Elhajj"
+    venue_short: RO-MAN
+    venue: IEEE International Conference on Robot and Human Interactive Communication
+    year: 2023
+    url: https://ieeexplore.ieee.org/document/10309620
+
+workshops:
+  - id: friction-estimation
+    title: "Zero-Shot Context Identification through Clustering and Foundation Modeling for Friction Estimation"
+    authors: "Renukanandan Tumu*, <strong>Ahmad Amine*</strong>, Lee Milburn*, Rajnish Gupta, Urara Kono, Rahul Mangharam"
+    venue_short: ICRA workshop
+    venue: ICRA Workshop on Foundation Models and Neuro-Symbolic AI for Robotics
+    year: 2025
+    url: https://openreview.net/forum?id=050LfN58RW
+    pdf: https://openreview.net/pdf?id=050LfN58RW
+
+  - id: poseinn
+    title: "PoseINN: Realtime Visual-based Pose Regression and Localization with Invertible Neural Networks"
+    authors: "Zirui Zang, <strong>Ahmad Amine</strong>, Rahul Mangharam"
+    venue_short: ICRA workshop
+    venue: RoboNeRF — 1st Workshop on Neural Fields in Robotics, ICRA
+    year: 2024
+    url: https://arxiv.org/abs/2404.13288
+    pdf: https://arxiv.org/pdf/2404.13288

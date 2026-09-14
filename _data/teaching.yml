@@ -1,0 +1,41 @@
+- institution: University of Pennsylvania
+  id: penn
+  location: Philadelphia, Pennsylvania
+  introduction: "At Penn, I serve as lead teaching assistant for autonomous racing and have been a teaching assistant for linear systems and introductory robotics."
+  courses:
+    - code: ESE 6150
+      title: F1/10 Autonomous Racing Cars
+      role: Lead Teaching Assistant
+      semesters: "Spring 2026 · Spring 2025 · Spring 2024"
+      description: "I give lectures on optimal control, model predictive control, stochastic optimal control, and reinforcement learning. Students implement and evaluate autonomous driving algorithms on 1/10-scale cars, connecting the mathematical formulation of a controller to its computational and experimental requirements."
+      additional: "I developed the course’s reference MPC implementation, reducing computational overhead through solver integration, sparse matrix formulations, and code generation. This made the controller suitable for real-time execution on the cars."
+    - code: ESE 5000
+      title: Linear Systems
+      role: Teaching Assistant
+      semesters: Fall 2024
+      description: "I served as a teaching assistant for this graduate course in linear systems theory."
+    - code: MEAM 5200
+      title: Introduction to Robotics
+      role: Teaching Assistant
+      semesters: "Fall 2023 · Spring 2023 · Spring 2022"
+      description: "I served as a teaching assistant across three semesters. I developed an AprilTag vision system for the course’s Franka Panda arms and implemented emulated cameras in Gazebo for the corresponding simulation environment."
+- institution: American University of Beirut
+  id: aub
+  location: Beirut, Lebanon
+  introduction: "My teaching experience began at AUB, where I worked as a teaching assistant in programming, electronics, and electronic circuits. These roles included helping students with laboratory work and problem solving, and grading assignments and quizzes."
+  courses:
+    - code: EECE 311
+      title: Electronic Circuits
+      role: Teaching Assistant
+      semesters: Spring 2019
+      description: "Supported students in electronic circuits through problem-solving sessions and assessment."
+    - code: EECE 310
+      title: Electronics
+      role: Teaching Assistant
+      semesters: Fall 2018
+      description: "Supported electronics teaching through problem-solving sessions and grading."
+    - code: EECE 230
+      title: Introduction to Computation and Programming
+      role: Teaching Assistant
+      semesters: Spring 2018
+      description: "Assisted students with programming laboratory work and their introduction to computational problem solving."

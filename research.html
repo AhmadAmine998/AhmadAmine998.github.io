@@ -1,0 +1,38 @@
+---
+layout: homepage
+title: Research
+permalink: /research/
+description: Data-driven safe iterative control, learning from successful and failed executions, and online system identification. Research and publications by Ahmad Amine.
+---
+
+<header class="page-intro"><p class="eyebrow">Research</p><h1>Data-driven safe iterative control</h1><p class="page-lead">Learning from successful trajectories and failed executions</p><p>My research develops control methods for systems that perform tasks repeatedly under uncertainty. I study two complementary uses of execution data: improving control performance from successful trajectories and learning invariance-preserving constraints from failures.</p><p>The methods address general classes of dynamical systems, with different assumptions for each problem. Autonomous vehicles provide applications for evaluating the resulting controllers and models.</p><a class="text-link" href="#publications">Publications <span aria-hidden="true">↓</span></a></header>
+
+<section class="section research-theme" aria-labelledby="success-heading">
+  <p class="eyebrow">01 · Learning from successful trajectories</p><h2 id="success-heading">Stochastic optimal control for iterative tasks</h2>
+  <p>Safe Information-Theoretic Learning Model Predictive Control (SIT-LMPC) addresses a constrained infinite-horizon optimal control problem for discrete-time nonlinear stochastic systems. Trajectories from previous task executions are used to learn a value function through normalizing flows.</p>
+  <p>We solve the resulting receding-horizon problem using information-theoretic model predictive control (MPC), with exterior penalty functions and online adaptation of the penalty parameters to enforce constraints. The algorithm is designed for parallel execution on graphics processing units. Simulations and hardware experiments demonstrate iterative performance improvement while satisfying system constraints.</p>
+  <figure class="research-figure"><img src="{{ '/assets/img/RAL2025.png' | relative_url }}" alt="SIT-LMPC architecture: a learning loop updates the safe set and value function, while a control loop selects feasible trajectories." width="5341" height="1440" loading="lazy"><figcaption>The learning and control loops in SIT-LMPC.</figcaption></figure>
+  <a class="text-link" href="#sit-lmpc">SIT-LMPC paper <span aria-hidden="true">↓</span></a>
+</section>
+
+<section class="section research-theme" aria-labelledby="failure-heading">
+  <p class="eyebrow">02 · Learning from failed executions</p><h2 id="failure-heading">State-control invariance from failure data</h2>
+  <p>Failure-Aware Iterative Learning (FAIL) computes the maximal state-control invariant set for deterministic linear time-invariant systems with unknown dynamics and polytopic constraints. This set encodes both the maximal control invariant state set and, at each state, the control inputs that preserve invariance.</p>
+  <p>FAIL uses regression on failing trajectories to learn predecessor halfspaces from one-step failing state-input pairs. These halfspaces update the constraints in the joint state-control space. We prove that the learned constraint set converges monotonically to the maximal state-control invariant set without knowledge of the system dynamics.</p>
+  <a class="text-link" href="#fail">FAIL paper <span aria-hidden="true">↓</span></a>
+</section>
+
+<section class="section research-theme" aria-labelledby="ongoing-heading">
+  <p class="eyebrow">03 · Ongoing research</p><h2 id="ongoing-heading">Reducing the number of failures</h2>
+  <p>Learning from failures raises a further question: how many failed executions are required to identify the maximal state-control invariant set? My ongoing research investigates how to select informative executions to reduce this number.</p>
+  <p>A longer-term objective is to combine this constraint-learning approach with performance improvement from successful trajectories. Such an integration would allow a controller to use both types of execution data within a common iterative control framework.</p>
+</section>
+
+<section class="section research-theme" aria-labelledby="adaptation-heading">
+  <p class="eyebrow">04 · Autonomous vehicle applications</p><h2 id="adaptation-heading">Online model learning and adaptive control</h2>
+  <p>In autonomous vehicle applications, I study how online system identification can account for changing friction, nonplanar terrain, and model uncertainty. This work combines Gaussian process dynamics models with predictive control and includes ensemble models for driving across surfaces with different friction, recursive sparse models for nonplanar MPC, and adaptive differentiable control for racing.</p>
+  <p>I also develop control software and robotic platforms for evaluating these methods in simulation and on hardware.</p>
+  <p><a href="#nonplanar">Nonplanar MPC</a> · <a href="#ensemble-gp">Ensemble Gaussian processes</a> · <a href="#ad-mpcc">Adaptive differentiable MPCC</a></p>
+</section>
+
+{% include publications.md %}

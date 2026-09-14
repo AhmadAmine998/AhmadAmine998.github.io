@@ -1,0 +1,31 @@
+name: Check website
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build with GitHub Pages Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Check generated pages and local links
+        run: python3 .github/scripts/check_site.py
+      - name: Check JavaScript syntax
+        run: |
+          node --check assets/js/contact.js
+          node --check assets/js/legacy-links.js
+          node --check assets/js/theme.js
+      - name: Save the built site for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: website-preview
+          path: _site/
+          retention-days: 7

@@ -1,51 +1,22 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
-
-<div class="publications">
-<ol class="bibliography">
-
-{% for link in site.data.publications.main %}
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% if link.conference_short %} 
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
-    {% endif %}
+<section id="publications" class="section" aria-labelledby="publications-heading">
+  <p class="eyebrow">Publications</p><h2 id="publications-heading">Papers &amp; preprints</h2>
+  <p class="publication-note">* Equal contribution. <a href="{{ site.google_scholar }}">Google Scholar <span aria-hidden="true">↗</span></a></p>
+  {% assign all_papers = site.data.publications.main | concat: site.data.publications.workshops %}
+  {% assign years = all_papers | group_by: 'year' | sort: 'name' | reverse %}
+  {% for year in years %}
+  <div class="publication-group">
+    <h3>{{ year.name }}</h3>
+    <ol class="publication-list">
+      {% for paper in year.items %}
+      <li class="publication" id="{{ paper.id }}">
+        <p class="item-meta">{{ paper.venue_short }} · {{ paper.year }}{% if paper.status %} · {{ paper.status }}{% endif %}</p>
+        <h4><a href="{{ paper.url }}">{{ paper.title | escape }}</a></h4>
+        <p class="pub-authors">{{ paper.authors }}</p>
+        <p class="pub-venue">{{ paper.venue | escape }}, {{ paper.year }}.</p>
+        <div class="pub-links"><a href="{{ paper.url }}">Paper <span aria-hidden="true">↗</span><span class="sr-only">: {{ paper.title | escape }}</span></a>{% if paper.pdf %}<a href="{{ paper.pdf }}">PDF <span aria-hidden="true">↗</span><span class="sr-only">: {{ paper.title | escape }}</span></a>{% endif %}{% if paper.code %}<a href="{{ paper.code }}">Code <span aria-hidden="true">↗</span><span class="sr-only">: {{ paper.title | escape }}</span></a>{% endif %}</div>
+      </li>
+      {% endfor %}
+    </ol>
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
-      </div>
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
-    </div>
-  </div>
-</div>
-</li>
-<br>
-
-{% endfor %}
-
-</ol>
-</div>
+  {% endfor %}
+</section>
