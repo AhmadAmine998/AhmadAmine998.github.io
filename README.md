@@ -13,6 +13,8 @@ A Jekyll website for GitHub Pages at https://ahmadamine998.github.io/.
 - `_data/navigation.yml`: navigation links.
 - `_layouts/homepage.html`: shared layout for every page.
 - `assets/img/events/`: event photographs. Preserve each complete frame.
+- `assets/img/teaching/`: original course photographs, with captions and alt text in `_data/teaching.yml`.
+- `_includes/icons/`: self-hosted Font Awesome brand SVGs; their license is in `assets/licenses/font-awesome.txt`.
 - `assets/fonts/`: self-hosted IBM Plex Sans with its license.
 - `assets/js/theme.js`: Light, Dark, and System appearance selection.
 - `assets/files/curriculum_vitae.pdf`: public CV. Keep the full application CV separately.

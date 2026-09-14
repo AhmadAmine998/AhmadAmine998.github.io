@@ -12,7 +12,17 @@ description: Ahmad Amine’s teaching in control, autonomous racing, robotics, e
   <p class="eyebrow">{{ university.location }}</p><h2 id="{{ university.id }}-heading">{{ university.institution }}</h2>
   <p>{{ university.introduction }}</p>
   {% for course in university.courses %}
-  <article class="course"><p class="item-meta">{{ course.code }} · {{ course.role }}</p><h3>{{ course.title }}</h3><p class="semester">{{ course.semesters }}</p><p>{{ course.description }}</p>{% if course.additional %}<p>{{ course.additional }}</p>{% endif %}</article>
+  <article class="course">
+    <p class="item-meta">{{ course.code }} · {{ course.role }}</p><h3>{{ course.title }}</h3>
+    <p class="semester">{{ course.semesters }}</p><p>{{ course.description }}</p>
+    {% if course.additional %}<p>{{ course.additional }}</p>{% endif %}
+    {% if course.image %}
+    <figure class="course-photo">
+      <img src="{{ course.image | relative_url }}" alt="{{ course.image_alt | escape }}" width="{{ course.image_width }}" height="{{ course.image_height }}" loading="lazy" decoding="async">
+      <figcaption>{{ course.image_caption | escape }}</figcaption>
+    </figure>
+    {% endif %}
+  </article>
   {% endfor %}
 </section>
 {% endfor %}

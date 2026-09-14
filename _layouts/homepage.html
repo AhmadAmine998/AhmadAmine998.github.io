@@ -38,7 +38,7 @@
   <main id="main" class="main-content" tabindex="-1">{{ content }}</main>
   <footer class="site-footer">
     <p>Ahmad Amine · University of Pennsylvania</p>
-    <div class="footer-links"><a href="{{ '/' | relative_url }}#contact">Contact</a><a href="{{ site.github_link }}">GitHub</a><a href="{{ site.google_scholar }}">Google Scholar</a></div>
+    <div class="footer-links"><a href="{{ '/' | relative_url }}#contact">Contact</a><a class="social-link" href="{{ site.github_link }}">{% include icons/github.svg %}GitHub</a><a class="social-link" href="{{ site.google_scholar }}">{% include icons/google-scholar.svg %}Google Scholar</a></div>
   </footer>
 </body>
 </html>

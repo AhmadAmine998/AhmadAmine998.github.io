@@ -9,6 +9,11 @@
       semesters: "Fall 2026 · Spring 2026 · Spring 2025 · Spring 2024"
       description: "I give different tutorials ranging from setting up the cars and debugging ROS nodes to applied optimization and reinforcement learning. I give lectures on optimal control, model predictive control, stochastic optimal control, and reinforcement learning. Students implement and evaluate autonomous driving algorithms on 1/10-scale cars, connecting the mathematical formulation of a controller to its computational and experimental requirements."
       additional: "I developed the course's reference MPC implementation, reducing computational overhead through solver integration, sparse matrix formulations, and code generation. This made the controller suitable for real-time execution on the cars."
+      image: /assets/img/teaching/ese-6150.png
+      image_width: 2048
+      image_height: 1365
+      image_alt: "Autonomous racing students and instructors holding 1/10-scale cars beside a track with yellow barriers."
+      image_caption: "Students and instructors with their cars in Penn’s autonomous racing course, ESE 6150."
     - code: ESE 5000
       title: Linear Systems
       role: Teaching Assistant
@@ -19,6 +24,11 @@
       role: Teaching Assistant
       semesters: "Fall 2023 · Spring 2023 · Spring 2022"
       description: "I served as a teaching assistant across three semesters. I developed an AprilTag vision system for the course’s Franka Panda arms and implemented emulated cameras in Gazebo for the corresponding simulation environment."
+      image: /assets/img/teaching/meam-5200.png
+      image_width: 2048
+      image_height: 1071
+      image_alt: "Ahmad working at a computer behind Franka Panda robot arms and blocks marked with AprilTags."
+      image_caption: "Franka Panda arms and AprilTag-marked blocks used in MEAM 5200, Introduction to Robotics."
 - institution: American University of Beirut
   id: aub
   location: Beirut, Lebanon

@@ -1,6 +1,6 @@
 <section id="publications" class="section" aria-labelledby="publications-heading">
   <p class="eyebrow">Publications</p><h2 id="publications-heading">Papers &amp; preprints</h2>
-  <p class="publication-note">* Equal contribution. <a href="{{ site.google_scholar }}">Google Scholar <span aria-hidden="true">↗</span></a></p>
+  <p class="publication-note">* Equal contribution. <a class="social-link" href="{{ site.google_scholar }}">{% include icons/google-scholar.svg %}Google Scholar</a></p>
   {% assign all_papers = site.data.publications.main | concat: site.data.publications.workshops %}
   {% assign years = all_papers | group_by: 'year' | sort: 'name' | reverse %}
   {% for year in years %}

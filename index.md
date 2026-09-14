@@ -13,7 +13,12 @@ description: Ahmad Amine is a PhD student at Penn researching data-driven safe i
   <p>I study how successful task executions can improve control performance and how failed executions can identify constraints and invariance-preserving control inputs. My work combines model predictive control, learning, and system identification, with autonomous vehicles and autonomous racing as an application domain.</p>
   <p>At Penn, I also teach control and robotics as a teaching assistant and help organize international Roboracer competitions.</p>
   <p>I have a Masters in Robotics from Penn. Before my PhD, I got a BE in Electrical and Computer Engineering, with a minor in Mathematics, at the American University of Beirut.</p>
-  <div class="profile-links" aria-label="Academic profiles"><a href="{{ site.google_scholar }}">Google Scholar <span aria-hidden="true">↗</span></a><a href="{{ site.github_link }}">GitHub <span aria-hidden="true">↗</span></a><a href="{{ site.linkedin }}">LinkedIn <span aria-hidden="true">↗</span></a><a href="{{ site.cv_link | relative_url }}">CV <span class="link-note">PDF ↗</span></a></div>
+  <div class="profile-links" aria-label="Academic profiles">
+    <a class="social-link" href="{{ site.google_scholar }}">{% include icons/google-scholar.svg %}Google Scholar</a>
+    <a class="social-link" href="{{ site.github_link }}">{% include icons/github.svg %}GitHub</a>
+    <a class="social-link" href="{{ site.linkedin }}">{% include icons/linkedin.svg %}LinkedIn</a>
+    <a href="{{ site.cv_link | relative_url }}">CV <span class="link-note">PDF ↗</span></a>
+  </div>
 </section>
 
 <section class="section" aria-labelledby="updates-heading">
@@ -27,8 +32,8 @@ description: Ahmad Amine is a PhD student at Penn researching data-driven safe i
 
 <section id="peer-review" class="section" aria-labelledby="service-heading">
   <p class="eyebrow">Academic service</p><h2 id="service-heading">Peer review</h2>
-  <p>I review for <em>IEEE Robotics and Automation Letters</em>, <em>Automatica</em>, and <em>Optimization and Engineering</em>.</p>
-  <p>My conference reviewing includes ICRA (2025–2026), IROS (2023–2026), RO-MAN (2023–2026), SYSID (2024), COINS (2025), and IV (2026).</p>
+  <p>I review for <a href="https://www.ieee-ras.org/publications/ra-l/"><em>IEEE Robotics and Automation Letters</em></a>, <a href="https://www.sciencedirect.com/journal/automatica"><em>Automatica</em></a>, and <a href="https://link.springer.com/journal/11081"><em>Optimization and Engineering</em></a>.</p>
+  <p>My conference reviewing includes <a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/">ICRA</a> (2025–2026), <a href="https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros/">IROS</a> (2023–2026), <a href="https://ro-man2026.org/">RO-MAN</a> (2023–2026), <a href="https://conferences.ifac-control.org/sysid2024/">SYSID</a> (2024), <a href="https://coinsconf.com/2025/">COINS</a> (2025), and <a href="https://ieee-iv.org/2026/">IV</a> (2026).</p>
 </section>
 
 <section id="contact" class="section contact" aria-labelledby="contact-heading">
@@ -36,7 +41,7 @@ description: Ahmad Amine is a PhD student at Penn researching data-driven safe i
   <p>Got any questions about my research? Looking to collaborate on future research? Reach out!</p>
   <div class="contact-actions">
     <button type="button" class="button" id="reveal-email" aria-controls="email-details" aria-expanded="false" hidden>Show email <span aria-hidden="true">↗</span></button>
-    <a href="{{ site.linkedin }}">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+    <a class="social-link" href="{{ site.linkedin }}">{% include icons/linkedin.svg %}Connect on LinkedIn</a>
   </div>
   <div id="email-details" class="email-details" aria-live="polite" hidden><a id="email-link"></a></div>
   <noscript><p>You can contact me through LinkedIn.</p></noscript>

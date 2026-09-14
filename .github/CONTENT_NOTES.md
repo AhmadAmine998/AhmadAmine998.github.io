@@ -54,6 +54,29 @@ CVs supplied on September 14 add historical background, not current positions.
   photo, and several indexed posts discuss the virtual competition. Do not substitute
   either for the physical-race all-participants image. Add the correct photo when found.
 
+## September 2026 website additions
+
+- Changes build on Ahmad’s writing and Gemfile fixes in `c89a5a2`.
+- MEAM 5200 and ESE 6150: Ahmad’s supplied original photographs, shown without
+  cropping. The source filenames were `8520b50e-7aea-452f-9701-3f10120a7a4a.png`
+  and `ADT06125.png`, respectively. No semester or event date is inferred.
+- `IFAC2023.svg` is the existing ensemble Gaussian process architecture figure.
+  The caption describes model weighting from recent measurements and links to
+  the associated paper. Research diagrams link to their full-size originals.
+- R5 repository: https://github.com/mlab-upenn/f1-fifth
+- AUB Robotics Club: https://sites.aub.edu.lb/aubrobotics/ (provided by Ahmad).
+- NXP article: https://www.aub.edu.lb/msfea/news/Pages/winning-nxp-competition.aspx
+  This article concerns AUB’s 2024 team. It is linked as an example of the event,
+  not as evidence of Ahmad’s participation in that edition or of his 2021 role.
+- Peer-review links point to official publisher, society, or conference pages.
+  The linked RO-MAN page is the 2026 edition; the recorded review years remain
+  2023–2026. Links do not imply attendance or an editorial appointment.
+- Brand icons: Font Awesome Free 6.7.2, `svgs/brands/{github,linkedin,google-scholar}.svg`
+  from https://github.com/FortAwesome/Font-Awesome/tree/6.7.2/svgs/brands
+  Icons are licensed CC BY 4.0. Source comments and the upstream license are
+  retained. Added attributes size them, inherit link color, and hide redundant
+  icon information from assistive technology; visible text labels remain.
+
 ## Potential additions from Ahmad
 
 An ICRA 2024 or CDC 2024 photo or post/album link; one short personal recollection from selected

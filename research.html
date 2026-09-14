@@ -11,7 +11,7 @@ description: Data-driven safe iterative control, learning from successful and fa
   <p class="eyebrow">01 · Learning from successful trajectories</p><h2 id="success-heading">Stochastic optimal control for iterative tasks</h2>
   <p>Safe Information-Theoretic Learning Model Predictive Control (SIT-LMPC) addresses a constrained infinite-horizon optimal control problem for discrete-time nonlinear stochastic systems. Trajectories from previous task executions are used to learn a value function with normalizing flows.</p>
   <p>To solve the resulting stochastic receding-horizon optimal control problem, we use AP-MPPI, am information-theoretic model predictive control (MPC) framework that balances safety and optimality by online tuning of penalty parameters to enforce the constraints. The algorithm is designed for parallel execution on graphics processing units. Simulations and hardware experiments demonstrate iterative performance improvement while satisfying system constraints.</p>
-  <figure class="research-figure"><img src="{{ '/assets/img/RAL2025.png' | relative_url }}" alt="SIT-LMPC architecture: a learning loop updates the safe set and value function, while a control loop selects feasible trajectories." width="5341" height="1440" loading="lazy"><figcaption>The learning and control loops in SIT-LMPC.</figcaption></figure>
+  <figure class="research-figure"><a class="figure-link" href="{{ '/assets/img/RAL2025.png' | relative_url }}" aria-label="View the full-size SIT-LMPC diagram"><img src="{{ '/assets/img/RAL2025.png' | relative_url }}" alt="SIT-LMPC architecture: a learning loop updates the safe set and value function, while a control loop selects feasible trajectories." width="5341" height="1440" loading="lazy" decoding="async"></a><figcaption>The learning and control loops in SIT-LMPC. <a href="{{ '/assets/img/RAL2025.png' | relative_url }}">View full-size figure</a>.</figcaption></figure>
   <a class="text-link" href="#sit-lmpc">SIT-LMPC paper <span aria-hidden="true">↓</span></a>
 </section>
 
@@ -31,7 +31,11 @@ description: Data-driven safe iterative control, learning from successful and fa
 <section class="section research-theme" aria-labelledby="adaptation-heading">
   <p class="eyebrow">04 · Autonomous vehicle applications</p><h2 id="adaptation-heading">Online model learning and adaptive control</h2>
   <p>In autonomous vehicle applications, I study how online system identification can account for changing friction, nonplanar terrain, and model uncertainty. This work combines Gaussian process dynamics models with predictive control and includes ensemble models for driving across surfaces with different friction, recursive sparse models for nonplanar MPC, and adaptive differentiable control for racing.</p>
-  <p>I also develop control software and robotic platforms for evaluating these methods in simulation and on hardware.</p>
+  <figure class="research-figure">
+    <a class="figure-link" href="{{ '/assets/img/IFAC2023.svg' | relative_url }}" aria-label="View the full-size ensemble Gaussian process diagram"><img src="{{ '/assets/img/IFAC2023.svg' | relative_url }}" alt="Ensemble Gaussian process control architecture: recent measurements update the weights of models trained for different friction conditions, and the weighted model is used by MPC." width="1172" height="398" loading="lazy" decoding="async"></a>
+    <figcaption>In our <a href="#ensemble-gp">ensemble Gaussian process approach</a>, recent measurements determine the weights assigned to models trained for different friction conditions. The resulting vehicle model is used for predictive control. <a href="{{ '/assets/img/IFAC2023.svg' | relative_url }}">View full-size figure</a>.</figcaption>
+  </figure>
+  <p>I also develop control software and robotic platforms for evaluating these methods in simulation and on hardware, including the <a href="https://github.com/mlab-upenn/f1-fifth">Roboracer R5</a> off-road platform.</p>
   <p><a href="#nonplanar">Nonplanar MPC</a> · <a href="#ensemble-gp">Ensemble Gaussian processes</a> · <a href="#ad-mpcc">Adaptive differentiable MPCC</a></p>
 </section>
 
