@@ -25,8 +25,11 @@ are available. Do not infer conference attendance from an authored paper.
 
 ## Research media and citation downloads
 
-The Research page shows muted, looping videos without playback controls. The
-SIT-LMPC video uses Ahmad's supplied public MP4 URL. FAIL has a local MP4 and a
+Research media loop silently without playback controls. SIT-LMPC uses a local GIF
+converted from Ahmad's uploaded `Sit_optimized.mp4`, also shown with the R5 entry
+on Community. The GIF is 768 × 432 pixels, sized for the content column without
+cropping. All source video frames are retained, with timing rounded to GIF's
+centisecond precision. FAIL has a local MP4 and a
 downloadable GIF generated from the supplied explainer's eight learning updates.
 Visitors who request reduced motion see the corresponding still image instead.
 The hardware plots can be expanded below the SIT-LMPC demonstration.

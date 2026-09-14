@@ -98,15 +98,21 @@ CVs supplied on September 14 add historical background, not current positions.
   Figure dimensions and complete frames are retained. Captions describe the
   plotted experiment without making a general claim of zero violations or
   monotonic improvement.
-- SIT-LMPC video URL supplied by Ahmad:
+- Initial SIT-LMPC video URL supplied by Ahmad:
   https://pub-33ab648a62794a59a34293b3fe2bd3cd.r2.dev/SIT-LMPC/Sit_optimized.mp4
-  It is embedded directly without transcoding. Both Research animations autoplay
-  silently and loop without visible controls, as requested. System reduced-motion
-  settings pause the videos and display still images. External video playback
-  could not be verified in the editing environment.
+  Ahmad subsequently uploaded `Sit_optimized.mp4`. The site now uses a local GIF
+  converted from that upload, replacing the external video and the unrelated R5
+  still in the demonstration. It appears on Research and Community. The 1280 × 720
+  source is scaled to 768 × 432 without cropping, retaining all 71 frames and
+  their timestamps rounded to centiseconds. The full sequence lasts 3.18 seconds.
+  The conversion maps the source's BT.709 transfer function to sRGB before palette
+  generation. There is no audio or playback UI, and the GIF loops indefinitely.
+  Reduced-motion settings show a still extracted from the same video. FAIL's
+  separate video and reduced-motion handling remain unchanged.
 - Source SHA-256 values:
   - FAIL HTML: `794989c6a16cc9cefe3a6b2afea1d848537b2d2f0064324b88d1681b58f7f030`
   - SIT-LMPC HTML: `6d8a73883a29e4161f06d384afcc6398a4685f7baced82c381785f7d283e9848`
+  - SIT-LMPC MP4 upload: `0ba52b3e684c5f4728e4a6c04227b7973ebf2c5117701a222996495a6d1425c7`
 - BibTeX download links are conditional on a `bibtex` file path in each publication
   record. No links are displayed until citation files are supplied. A Zotero BibTeX
   export from Ahmad can provide these files without inventing publication metadata.
