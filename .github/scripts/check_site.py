@@ -18,7 +18,7 @@ class Page(HTMLParser):
         if a.get('aria-current') == 'page': self.active += 1
         if 'course' in a.get('class', '').split(): self.courses += 1
         if 'journey-entry' in a.get('class', '').split(): self.entries += 1
-        for key in ['href', 'src']:
+        for key in ['href', 'src', 'poster']:
             if a.get(key): self.links.append(a[key])
         if tag == 'link' and a.get('rel') == 'canonical': self.canonical = a.get('href')
         if tag == 'img':

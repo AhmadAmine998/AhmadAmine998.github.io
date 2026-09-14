@@ -62,6 +62,11 @@
   location: Milan, Italy
   paragraphs:
     - "I traveled to Milan to help organize the Roboracer competition at the Conference on Decision and Control. Twelve teams took part in the physical racing competition."
+  image: /assets/img/events/cdc-2024.jpg
+  width: 2048
+  height: 1365
+  alt: Roboracer participants gathered behind the orange track barriers, with autonomous cars in the foreground, at CDC 2024.
+  caption: The Roboracer group photo at CDC 2024 in Milan.
 - id: icra-2024
   date: May 13–17, 2024
   date_iso: '2024-05-13'

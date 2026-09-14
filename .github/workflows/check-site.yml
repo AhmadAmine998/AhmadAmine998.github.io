@@ -22,6 +22,7 @@ jobs:
         run: |
           node --check assets/js/contact.js
           node --check assets/js/legacy-links.js
+          node --check assets/js/research-media.js
           node --check assets/js/theme.js
       - name: Save the built site for review
         uses: actions/upload-artifact@v4

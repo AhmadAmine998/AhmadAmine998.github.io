@@ -23,6 +23,21 @@ Course material links are intentionally absent until Ahmad is ready to share the
 Use `status: Accepted` for accepted conference papers until publication details
 are available. Do not infer conference attendance from an authored paper.
 
+## Research media and citation downloads
+
+The Research page shows muted, looping videos without playback controls. The
+SIT-LMPC video uses Ahmad's supplied public MP4 URL. FAIL has a local MP4 and a
+downloadable GIF generated from the supplied explainer's eight learning updates.
+Visitors who request reduced motion see the corresponding still image instead.
+The hardware plots can be expanded below the SIT-LMPC demonstration.
+
+To add a BibTeX download, save one exported citation as `assets/bib/<paper-id>.bib`
+and set `bibtex: /assets/bib/<paper-id>.bib` in that paper's entry in
+`_data/publications.yml`. The template then displays a download link beside Paper
+and PDF. Leave the field absent until the corresponding file is ready. Use
+Ahmad's Zotero export to preserve citation metadata and keys; do not invent
+proceedings page numbers or DOIs for accepted papers.
+
 ## Contact
 
 The email address is assembled after the visitor activates Show email, reducing

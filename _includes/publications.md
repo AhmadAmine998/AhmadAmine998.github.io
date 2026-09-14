@@ -13,7 +13,7 @@
         <h4><a href="{{ paper.url }}">{{ paper.title | escape }}</a></h4>
         <p class="pub-authors">{{ paper.authors }}</p>
         <p class="pub-venue">{{ paper.venue | escape }}, {{ paper.year }}.</p>
-        <div class="pub-links"><a href="{{ paper.url }}">Paper <span aria-hidden="true">↗</span><span class="sr-only">: {{ paper.title | escape }}</span></a>{% if paper.pdf %}<a href="{{ paper.pdf }}">PDF <span aria-hidden="true">↗</span><span class="sr-only">: {{ paper.title | escape }}</span></a>{% endif %}{% if paper.code %}<a href="{{ paper.code }}">Code <span aria-hidden="true">↗</span><span class="sr-only">: {{ paper.title | escape }}</span></a>{% endif %}</div>
+        <div class="pub-links"><a href="{{ paper.url }}">Paper <span aria-hidden="true">↗</span><span class="sr-only">: {{ paper.title | escape }}</span></a>{% if paper.pdf %}<a href="{{ paper.pdf }}">PDF <span aria-hidden="true">↗</span><span class="sr-only">: {{ paper.title | escape }}</span></a>{% endif %}{% if paper.code %}<a href="{{ paper.code }}">Code <span aria-hidden="true">↗</span><span class="sr-only">: {{ paper.title | escape }}</span></a>{% endif %}{% if paper.bibtex %}<a href="{{ paper.bibtex | relative_url }}" download>BibTeX<span class="sr-only">: {{ paper.title | escape }}</span></a>{% endif %}</div>
       </li>
       {% endfor %}
     </ol>

@@ -67,6 +67,12 @@ figcaption{margin-top:10px;font-size:14px;line-height:1.55;color:var(--muted)}
 .research-figure img{background:#fff;padding:16px;border:1px solid var(--line);border-radius:3px}
 .research-figure figcaption{margin-top:14px}
 .figure-link{display:block;border-radius:3px}
+.research-video{display:block;width:100%;height:auto;background:#fff;border:1px solid var(--line);border-radius:3px}
+.motion-figure .motion-poster{display:none}
+.research-results{margin-top:24px}
+.research-results summary{color:var(--accent);cursor:pointer;font-weight:500}
+.research-results .research-figure:last-child{margin-bottom:0}
+@media(prefers-reduced-motion:reduce){.motion-figure video{display:none}.motion-figure .motion-poster{display:block;width:100%}}
 .publication-note{font-size:14px;color:var(--muted)}
 .publication-group{margin-top:38px}
 .publication-group>h3{font-size:21px}

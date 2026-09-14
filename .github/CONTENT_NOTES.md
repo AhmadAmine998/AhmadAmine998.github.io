@@ -50,9 +50,9 @@ CVs supplied on September 14 add historical background, not current positions.
 - ICRA 2024: Ahmad identified the previously selected photograph as Scuderia TU Wien,
   not all participating teams. That image and its caption have been removed. Keep
   the conference entry without a photo until the correct photograph is supplied.
-- CDC 2024 all-participants photo: not verified. TU Wien's report has a small team
-  photo, and several indexed posts discuss the virtual competition. Do not substitute
-  either for the physical-race all-participants image. Add the correct photo when found.
+- CDC 2024: Ahmad supplied `together-2.JPG` and identified it as the competition
+  group photo. `assets/img/events/cdc-2024.jpg` retains the original 2048 × 1365
+  image without cropping or retouching. This replaces the earlier missing-photo note.
 
 ## September 2026 website additions
 
@@ -77,9 +77,44 @@ CVs supplied on September 14 add historical background, not current positions.
   retained. Added attributes size them, inherit link color, and hide redundant
   icon information from assistive technology; visible text labels remain.
 
+## Research media and citations
+
+- Ahmad supplied `FAIL-Website.html` and `SIT-LMPC-Website.html` as sources for
+  animations and figures. Their full explanatory text is not republished.
+- The FAIL animation uses the original explainer's numerical and Canvas drawing
+  code for its seeded constrained double-integrator example (`runFAIL(2, 15)`).
+  The state constraints are |x₁| ≤ 15, |x₂| ≤ 10, and the input constraint is
+  |u| ≤ 5. It shows the initial set followed by eight halfspace updates, using
+  the original slider states. No intermediate geometry is synthesized. The
+  reported eight learned halfspaces and six trajectories describe this example,
+  not a general bound. Numerical results are inherited from the supplied source.
+- The nine FAIL frames were extracted with a DOM/Canvas renderer using the
+  original script. The frames include a title and the original slider readout.
+  The GIF holds each update for 1.4 seconds and the last frame for 2.8 seconds.
+  The silent MP4 uses the same frames; its first frame is the reduced-motion poster.
+- `r5-platform.jpg`, `sit-lmpc-hardware-lap-times.png`, and
+  `sit-lmpc-hardware-boundary-violations.png` are byte-for-byte extractions of the
+  embedded hardware photograph and two hardware plots in `SIT-LMPC-Website.html`.
+  Figure dimensions and complete frames are retained. Captions describe the
+  plotted experiment without making a general claim of zero violations or
+  monotonic improvement.
+- SIT-LMPC video URL supplied by Ahmad:
+  https://pub-33ab648a62794a59a34293b3fe2bd3cd.r2.dev/SIT-LMPC/Sit_optimized.mp4
+  It is embedded directly without transcoding. Both Research animations autoplay
+  silently and loop without visible controls, as requested. System reduced-motion
+  settings pause the videos and display still images. External video playback
+  could not be verified in the editing environment.
+- Source SHA-256 values:
+  - FAIL HTML: `794989c6a16cc9cefe3a6b2afea1d848537b2d2f0064324b88d1681b58f7f030`
+  - SIT-LMPC HTML: `6d8a73883a29e4161f06d384afcc6398a4685f7baced82c381785f7d283e9848`
+- BibTeX download links are conditional on a `bibtex` file path in each publication
+  record. No links are displayed until citation files are supplied. A Zotero BibTeX
+  export from Ahmad can provide these files without inventing publication metadata.
+
 ## Potential additions from Ahmad
 
-An ICRA 2024 or CDC 2024 photo or post/album link; one short personal recollection from selected
+An ICRA 2024 photo or post/album link; a BibTeX export of the listed publications;
+one short personal recollection from selected
 trips (especially Japan, Milan, or Berkeley); any additional conferences actually
 attended; details of the ACC workshop role if more than attendance; end date for
 remote Band Industries work if it should be part of the public timeline.

@@ -13,12 +13,43 @@ description: Data-driven safe iterative control, learning from successful and fa
   <p>To solve the resulting stochastic receding-horizon optimal control problem, we use AP-MPPI, am information-theoretic model predictive control (MPC) framework that balances safety and optimality by online tuning of penalty parameters to enforce the constraints. The algorithm is designed for parallel execution on graphics processing units. Simulations and hardware experiments demonstrate iterative performance improvement while satisfying system constraints.</p>
   <figure class="research-figure"><a class="figure-link" href="{{ '/assets/img/RAL2025.png' | relative_url }}" aria-label="View the full-size SIT-LMPC diagram"><img src="{{ '/assets/img/RAL2025.png' | relative_url }}" alt="SIT-LMPC architecture: a learning loop updates the safe set and value function, while a control loop selects feasible trajectories." width="5341" height="1440" loading="lazy" decoding="async"></a><figcaption>The learning and control loops in SIT-LMPC. <a href="{{ '/assets/img/RAL2025.png' | relative_url }}">View full-size figure</a>.</figcaption></figure>
   <a class="text-link" href="#sit-lmpc">SIT-LMPC paper <span aria-hidden="true">↓</span></a>
+  <figure id="sit-lmpc-demo" class="research-figure">
+    <div class="motion-figure">
+      <video class="research-video" autoplay loop muted playsinline preload="metadata" poster="{{ '/assets/img/research/r5-platform.jpg' | relative_url }}" aria-label="SIT-LMPC demonstration" aria-describedby="sit-lmpc-demo-caption">
+        <source src="https://pub-33ab648a62794a59a34293b3fe2bd3cd.r2.dev/SIT-LMPC/Sit_optimized.mp4" type="video/mp4">
+        <a href="https://pub-33ab648a62794a59a34293b3fe2bd3cd.r2.dev/SIT-LMPC/Sit_optimized.mp4">View the SIT-LMPC demonstration</a>.
+      </video>
+      <img class="motion-poster" src="{{ '/assets/img/research/r5-platform.jpg' | relative_url }}" alt="The 1/5-scale off-road platform used for SIT-LMPC hardware experiments." width="1100" height="719" loading="lazy" decoding="async">
+    </div>
+    <figcaption id="sit-lmpc-demo-caption">SIT-LMPC demonstration. The <a href="https://github.com/mlab-upenn/f1-fifth">Roboracer R5 repository</a> documents the hardware platform and its software.</figcaption>
+  </figure>
+  <details class="research-results">
+    <summary>Hardware results: lap time and boundary violations</summary>
+    <figure class="research-figure">
+      <a class="figure-link" href="{{ '/assets/img/research/sit-lmpc-hardware-lap-times.png' | relative_url }}"><img src="{{ '/assets/img/research/sit-lmpc-hardware-lap-times.png' | relative_url }}" alt="Hardware lap times across iterations for SIT-LMPC and ABC-LMPC." width="820" height="617" loading="lazy" decoding="async"></a>
+      <figcaption>Lap times over successive hardware iterations, comparing SIT-LMPC with ABC-LMPC.</figcaption>
+    </figure>
+    <figure class="research-figure">
+      <a class="figure-link" href="{{ '/assets/img/research/sit-lmpc-hardware-boundary-violations.png' | relative_url }}"><img src="{{ '/assets/img/research/sit-lmpc-hardware-boundary-violations.png' | relative_url }}" alt="Boundary violations from the same hardware experiment: SIT-LMPC remains at zero in the plotted iterations, while ABC-LMPC reaches approximately 0.22 metres at iteration five." width="820" height="617" loading="lazy" decoding="async"></a>
+      <figcaption>Boundary violations from the same hardware experiment. Both figures are reported in the <a href="#sit-lmpc">SIT-LMPC paper</a>.</figcaption>
+    </figure>
+  </details>
 </section>
 
 <section class="section research-theme" aria-labelledby="failure-heading">
   <p class="eyebrow">02 · Learning from failed executions</p><h2 id="failure-heading">State-control invariance from failure data</h2>
   <p>Failure-Aware Iterative Learning (FAIL) computes the maximal state-control invariant set for deterministic linear time-invariant systems with unknown dynamics and polytopic constraints. This set encodes both the maximal control invariant state set and, at each state, the control inputs that preserve invariance.</p>
   <p>FAIL uses regression on failing trajectories to learn predecessor halfspaces from one-step failing state-input pairs. These halfspaces update the constraints in the joint state-control space. We prove that the learned constraint set converges monotonically to the maximal state-control invariant set without knowledge of the system dynamics.</p>
+  <figure class="research-figure">
+    <div class="motion-figure">
+      <video class="research-video" autoplay loop muted playsinline preload="metadata" poster="{{ '/assets/img/research/fail-learning-poster.png' | relative_url }}" width="1800" height="780" aria-label="FAIL learning sequence for the constrained double integrator" aria-describedby="fail-animation-caption">
+        <source src="{{ '/assets/video/fail-learning.mp4' | relative_url }}" type="video/mp4">
+        <a href="{{ '/assets/img/research/fail-learning.gif' | relative_url }}">View the FAIL learning animation</a>.
+      </video>
+      <img class="motion-poster" src="{{ '/assets/img/research/fail-learning-poster.png' | relative_url }}" alt="Initial constraint set and its state projection in blue, with the target invariant sets outlined by dashed green boundaries." width="1800" height="780" loading="lazy" decoding="async">
+    </div>
+    <figcaption id="fail-animation-caption">FAIL on a constrained double integrator. The learned set in the joint state-control space (right) and its state projection (left) contract as predecessor halfspaces are added. This example recovers eight halfspaces from six trajectories. <a href="{{ '/assets/img/research/fail-learning.gif' | relative_url }}" download>Download GIF</a>.</figcaption>
+  </figure>
   <a class="text-link" href="#fail">FAIL paper <span aria-hidden="true">↓</span></a>
 </section>
 
